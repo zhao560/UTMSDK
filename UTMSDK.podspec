@@ -8,7 +8,7 @@ s.homepage     = "https://github.com/zhao560/UTMSDK"
 
 s.license      = "MIT"
 
-s.author       = { "zhaoshuai" => "790368411@qq.com" }
+s.author       = { "ZHAO" => "790368411@qq.com" }
 
 s.platform     = :ios, "10.0"
 
