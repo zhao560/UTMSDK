@@ -46,7 +46,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
      * @param channel 渠道
      * @param app 需要传入bundleId 以-分割 请参考demo
      */
-		WDTracker.setup(channel: "AppStore", app: bundleId)
+	WDTracker.setup(channel: "AppStore", app: bundleId)
   	// 是否开启debug模式
   	WDTracker.debug = true
 }
@@ -65,8 +65,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     <img src="http://boniuapp.oss-cn-hangzhou.aliyuncs.com/mydays/other/1605062905997.png" alt="image-20201110141652589" style="zoom:50%;" align="left"/>
 
 -    如果⽤户点击按钮，会上报包含点击信息的⼀条数据
-
     <img src="http://boniuapp.oss-cn-hangzhou.aliyuncs.com/mydays/other/1605062943424.png" alt="image-20201110142404356" style="zoom:50%;" align="left"/>
+    
 
 -   其它事件
 
