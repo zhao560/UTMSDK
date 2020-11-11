@@ -4,13 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/NSObject+hook.h</key>
+		<data>
+		uxGWmEQ0YoGxgNgElJYTqXfQUlA=
+		</data>
+		<key>Headers/NSString+utm.h</key>
+		<data>
+		8rj1m6Kiu0hZ/DiXsDjLmHf/8jA=
+		</data>
+		<key>Headers/UIButton+utm.h</key>
+		<data>
+		BFP3Tnc4epeI6+7gw7bQ4VxYhg8=
+		</data>
+		<key>Headers/UIDevice+utm.h</key>
+		<data>
+		BdjGpadPd//pxg2khsyAG8b3YWw=
+		</data>
+		<key>Headers/UIImage+utm.h</key>
+		<data>
+		SylAHUog3d541is+w25y+mqHlxg=
+		</data>
+		<key>Headers/UIImageView+utm.h</key>
+		<data>
+		Oz3V05d5pD219hKrOOJ+MJMtXnc=
+		</data>
 		<key>Headers/WDUTMSDK-Swift.h</key>
 		<data>
 		I7G0+v2+YWoxjdUsR9OlNhoV9fI=
 		</data>
 		<key>Headers/WDUTMSDK.h</key>
 		<data>
-		N4gb2+LJqrzpbGyE0bj5AUI8l5w=
+		7X/wlgWuQF4wA8WEsRrMj+6I7JY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -38,7 +62,7 @@
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		G96IPW+fqcnZn3/tnGPyQwbXG6Q=
+		YL8XQRx841jRY9Wy7vVVJTsPn/M=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -46,7 +70,7 @@
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		G96IPW+fqcnZn3/tnGPyQwbXG6Q=
+		YL8XQRx841jRY9Wy7vVVJTsPn/M=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +78,7 @@
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		m0VJezDR5D+bbU0bvh6rtmKlPcA=
+		+Rua+1qyar4H0VAs5ZmcQouXSf0=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +86,7 @@
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		m0VJezDR5D+bbU0bvh6rtmKlPcA=
+		+Rua+1qyar4H0VAs5ZmcQouXSf0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,6 +95,72 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/NSObject+hook.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uxGWmEQ0YoGxgNgElJYTqXfQUlA=
+			</data>
+			<key>hash2</key>
+			<data>
+			IXvGIr/T+WhNr+kKB/2Dj/UeePqmGGpGtKPbOqSE+J0=
+			</data>
+		</dict>
+		<key>Headers/NSString+utm.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8rj1m6Kiu0hZ/DiXsDjLmHf/8jA=
+			</data>
+			<key>hash2</key>
+			<data>
+			G5rz3rLWAymsbz93HCuS6SN8GJL67wqxg+BjJSFR1gU=
+			</data>
+		</dict>
+		<key>Headers/UIButton+utm.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BFP3Tnc4epeI6+7gw7bQ4VxYhg8=
+			</data>
+			<key>hash2</key>
+			<data>
+			uMJCFviurQP0a5CVKFFjuI5GGKnXRbDx4BNwc0sgwEo=
+			</data>
+		</dict>
+		<key>Headers/UIDevice+utm.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BdjGpadPd//pxg2khsyAG8b3YWw=
+			</data>
+			<key>hash2</key>
+			<data>
+			VcWzQnYxULfuXHMx9ypDNYAmY8L+NDbkPYsqbi/hXes=
+			</data>
+		</dict>
+		<key>Headers/UIImage+utm.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SylAHUog3d541is+w25y+mqHlxg=
+			</data>
+			<key>hash2</key>
+			<data>
+			yg4Ou9nj33lS5AHCT+nBlpdJTOPtZQ03uJMteiY62n8=
+			</data>
+		</dict>
+		<key>Headers/UIImageView+utm.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Oz3V05d5pD219hKrOOJ+MJMtXnc=
+			</data>
+			<key>hash2</key>
+			<data>
+			pJ9ScmiC4taRHBtGPNzHCeOjSULN61FAQaxZoyzbWfk=
+			</data>
+		</dict>
 		<key>Headers/WDUTMSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
@@ -86,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N4gb2+LJqrzpbGyE0bj5AUI8l5w=
+			7X/wlgWuQF4wA8WEsRrMj+6I7JY=
 			</data>
 			<key>hash2</key>
 			<data>
-			KbuZLtmXGwylgU91/gPFAZSDThGJKCn69kckMhjxPSU=
+			shz5xfV6y0M5+mTp+GE1HFdw9kz1VxZPS5pNd1hp5AI=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
@@ -152,11 +242,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G96IPW+fqcnZn3/tnGPyQwbXG6Q=
+			YL8XQRx841jRY9Wy7vVVJTsPn/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gaxtd5W/wPE+D11pRrLDpr7o0+n6yYHFrvtaYW8WyVc=
+			iNLAtQn40IevO/ihkPTubIukvqaT6i7S3dGAGwrLeL4=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftdoc</key>
@@ -174,11 +264,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G96IPW+fqcnZn3/tnGPyQwbXG6Q=
+			YL8XQRx841jRY9Wy7vVVJTsPn/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gaxtd5W/wPE+D11pRrLDpr7o0+n6yYHFrvtaYW8WyVc=
+			iNLAtQn40IevO/ihkPTubIukvqaT6i7S3dGAGwrLeL4=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -196,11 +286,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m0VJezDR5D+bbU0bvh6rtmKlPcA=
+			+Rua+1qyar4H0VAs5ZmcQouXSf0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ZLby+xlOjd0pq2j6ht/ql7c9fD+oXLe/+Pmb4Cpnh4=
+			553rXLy1IO+KOYs+SwCyw68EA2Q8YPrwFMd/9J7XtUk=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -218,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m0VJezDR5D+bbU0bvh6rtmKlPcA=
+			+Rua+1qyar4H0VAs5ZmcQouXSf0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ZLby+xlOjd0pq2j6ht/ql7c9fD+oXLe/+Pmb4Cpnh4=
+			553rXLy1IO+KOYs+SwCyw68EA2Q8YPrwFMd/9J7XtUk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

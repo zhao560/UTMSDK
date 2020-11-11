@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import <WDUTMSDK/WDUTMSDK-Swift.h>
 #import "BNUTMDemo-Swift.h"
+#import <WDUTMSDK/WDUTMSDK-Swift.h>
 
 @interface AppDelegate ()
 
@@ -30,7 +30,7 @@
      */
     [WDTracker setupWithChannel:@"AppStore" app: bundleId];
     WDTracker.debug = true;
-    
+
     // 自定义上传用户id
     [WDTracker fire:@"user" extra:@{@"dataid" : @"123"}];
     

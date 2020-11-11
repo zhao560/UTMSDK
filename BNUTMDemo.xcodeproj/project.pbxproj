@@ -13,9 +13,9 @@
 		048548E7255A34CC0069C4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048548E6255A34CC0069C4DF /* main.m */; };
 		048548F2255A354A0069C4DF /* MyTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048548F0255A354A0069C4DF /* MyTwoViewController.swift */; };
 		048548F3255A354A0069C4DF /* MyOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048548F1255A354A0069C4DF /* MyOneViewController.swift */; };
-		048548FA255A5E420069C4DF /* WDUTMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048548F9255A5E420069C4DF /* WDUTMSDK.framework */; };
 		048548FC255A5F0E0069C4DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048548FB255A5F0E0069C4DF /* SystemConfiguration.framework */; };
 		048548FE255A5F140069C4DF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048548FD255A5F140069C4DF /* CoreTelephony.framework */; };
+		04DDBA12255B846A00F7BB69 /* WDUTMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DDBA11255B846A00F7BB69 /* WDUTMSDK.framework */; };
 		CA2E04EEC8892915A3029645 /* Pods_BNUTMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192DE33A88FD7454B3FFF683 /* Pods_BNUTMDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +30,9 @@
 		048548ED255A35390069C4DF /* BNUTMDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNUTMDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		048548F0255A354A0069C4DF /* MyTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTwoViewController.swift; sourceTree = "<group>"; };
 		048548F1255A354A0069C4DF /* MyOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOneViewController.swift; sourceTree = "<group>"; };
-		048548F9255A5E420069C4DF /* WDUTMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WDUTMSDK.framework; sourceTree = "<group>"; };
 		048548FB255A5F0E0069C4DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		048548FD255A5F140069C4DF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04DDBA11255B846A00F7BB69 /* WDUTMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WDUTMSDK.framework; sourceTree = "<group>"; };
 		192DE33A88FD7454B3FFF683 /* Pods_BNUTMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BNUTMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6633B3A23CFC34180771663A /* Pods-BNUTMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNUTMDemo.debug.xcconfig"; path = "Target Support Files/Pods-BNUTMDemo/Pods-BNUTMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CA9A12EAB5E88B1E3C70C10B /* Pods-BNUTMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNUTMDemo.release.xcconfig"; path = "Target Support Files/Pods-BNUTMDemo/Pods-BNUTMDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				048548FE255A5F140069C4DF /* CoreTelephony.framework in Frameworks */,
+				04DDBA12255B846A00F7BB69 /* WDUTMSDK.framework in Frameworks */,
 				CA2E04EEC8892915A3029645 /* Pods_BNUTMDemo.framework in Frameworks */,
 				048548FC255A5F0E0069C4DF /* SystemConfiguration.framework in Frameworks */,
-				048548FA255A5E420069C4DF /* WDUTMSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 		048548D3255A34CB0069C4DF /* BNUTMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				048548F4255A363A0069C4DF /* Frameworks */,
+				04DDBA10255B846A00F7BB69 /* Frameworks */,
 				048548D4255A34CB0069C4DF /* AppDelegate.h */,
 				048548D5255A34CB0069C4DF /* AppDelegate.m */,
 				048548E0255A34CC0069C4DF /* Assets.xcassets */,
@@ -88,10 +88,10 @@
 			path = BNUTMDemo;
 			sourceTree = "<group>";
 		};
-		048548F4255A363A0069C4DF /* Frameworks */ = {
+		04DDBA10255B846A00F7BB69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				048548F9255A5E420069C4DF /* WDUTMSDK.framework */,
+				04DDBA11255B846A00F7BB69 /* WDUTMSDK.framework */,
 			);
 			path = Frameworks;
 			sourceTree = SOURCE_ROOT;
@@ -367,6 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA8JCB7Y7F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -377,6 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -387,7 +389,7 @@
 					"\"SDWebImage\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.rhinox.UTMDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MOUIT.MOUIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BNUTMDemo/BNUTMDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -403,6 +405,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA8JCB7Y7F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -413,6 +416,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -423,7 +427,7 @@
 					"\"SDWebImage\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.rhinox.UTMDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MOUIT.MOUIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BNUTMDemo/BNUTMDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
