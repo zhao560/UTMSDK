@@ -58,15 +58,27 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 -   ⽤户⾸次进⼊，会上报包含设备信息的⼀条数据
 
+    
+
     <img src="http://boniuapp.oss-cn-hangzhou.aliyuncs.com/mydays/other/1605062821046.png" alt="image-20201110141603507" style="zoom:50%;" align="left"/>
+
+    
 
 -   如果⽤户进⼊⻚⾯，会上报包含访问的信息
 
+    
+
     <img src="http://boniuapp.oss-cn-hangzhou.aliyuncs.com/mydays/other/1605062905997.png" alt="image-20201110141652589" style="zoom:60%;" align="left"/>
+
+    
 
 -    如果⽤户点击按钮，会上报包含点击信息的⼀条数据
 
+     
+
      <img src="http://boniuapp.oss-cn-hangzhou.aliyuncs.com/mydays/other/1605066200909.jpeg" style="zoom:60%;" align="left" />
+
+     
 
 -   其它事件
 
