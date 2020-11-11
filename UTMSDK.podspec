@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "UTMSDK"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "统计工具"
 
 s.homepage     = "https://github.com/zhao560/UTMSDK"
