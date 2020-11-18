@@ -26,10 +26,15 @@ SDK 需要在 AppDelegate 的方法 - (BOOL)application:(UIApplication *)applica
 #import <WDUTMSDK/WDUTMSDK-Swift.h>
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  
+    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
+    NSString *bundleId = infoDictionary[@"CFBundleIdentifier"];
+    bundleId = [bundleId stringByReplacingOccurrencesOfString:@"." withString:@"_"];
+    bundleId = [NSString stringWithFormat:@"bn_%@", bundleId];
     /**
      *  初始化
      * @param channel 渠道
-     * @param app 需要传入bundleId 以-分割 请参考demo
+     * @param app 需要传入bundleId 以_分割 需要带上bn_前缀 请参考demo
      */
     [WDTracker setupWithChannel:@"AppStore" app: @""];
 }
@@ -51,6 +56,35 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     WDTracker.debug = true
 }
 ```
+
+
+
+## 上报用户id
+
+需要手动上传用户id  
+
+接入时请联系后台 通过后台接口获取 `dataid`  
+
+```objective-c
+// 自定义上传用户id 需要调用后台接口获取 dataid  接入时请联系后台
+[WDTracker fire:@"user.dataid" extra:@{@"dataid" : @"123"}];
+```
+
+
+## 广告展示成功埋点
+
+广告展示成功后需要手动埋点  `广告类型 csj - 穿山甲 ylh - 优量汇 zhike - 直客 `
+
+接入的是[RhinoXSDK](https://github.com/zhao560/RhinoXSDK)搏牛广告sdk 可在代理中 获取广告类型 `advertiserNo`
+
+```objective-c
+// 开屏广告-穿山甲
+[WDTracker fire:@"event.splashAd" extra:@{@"type" : @"csj"}];
+// 激励视频-广点通
+[WDTracker fire:@"event.rewardedVideoAd" extra:@{@"type" : @"ylh"}];
+```
+
+
 
 ## 自动埋点
 

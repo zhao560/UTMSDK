@@ -21,8 +21,8 @@
     
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSString *bundleId = infoDictionary[@"CFBundleIdentifier"];
-    bundleId = [bundleId stringByReplacingOccurrencesOfString:@"." withString:@"-"];
-    
+    bundleId = [bundleId stringByReplacingOccurrencesOfString:@"." withString:@"_"];
+    bundleId = [NSString stringWithFormat:@"bn_%@", bundleId];
     /**
      *  初始化
      * @param channel 渠道
