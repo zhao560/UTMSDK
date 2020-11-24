@@ -27,16 +27,12 @@ SDK 需要在 AppDelegate 的方法 - (BOOL)application:(UIApplication *)applica
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   
-    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    NSString *bundleId = infoDictionary[@"CFBundleIdentifier"];
-    bundleId = [bundleId stringByReplacingOccurrencesOfString:@"." withString:@"_"];
-    bundleId = [NSString stringWithFormat:@"bn_%@", bundleId];
     /**
      *  初始化
      * @param channel 渠道
-     * @param app 需要传入bundleId 以_分割 需要带上bn_前缀 请参考demo
+     * @param app 需要传入appName(后台提供)  搏牛产品 加入bn_前缀
      */
-    [WDTracker setupWithChannel:@"AppStore" app: @""];
+    [WDTracker setupWithChannel:@"AppStore" app: [NSString stringWithFormat:@"bn_%@", appName]];
 }
 ```
 
@@ -49,9 +45,9 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     /**
      *  初始化
      * @param channel 渠道
-     * @param app 需要传入bundleId 以-分割 请参考demo
+     * @param app 需要传入appName(后台提供)  搏牛产品 加入bn_前缀
      */
-    WDTracker.setup(channel: "AppStore", app: bundleId)
+    WDTracker.setup(channel: "AppStore", app: appName)
   	// 是否开启debug模式
     WDTracker.debug = true
 }

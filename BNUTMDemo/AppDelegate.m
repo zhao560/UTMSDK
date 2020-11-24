@@ -19,16 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    NSString *bundleId = infoDictionary[@"CFBundleIdentifier"];
-    bundleId = [bundleId stringByReplacingOccurrencesOfString:@"." withString:@"_"];
-    bundleId = [NSString stringWithFormat:@"bn_%@", bundleId];
     /**
      *  初始化
      * @param channel 渠道
-     * @param app 需要传入bundleId 以-分割 请参考demo
+     * @param app 需要传入appName(后台提供)  搏牛产品 加入bn_前缀
      */
-    [WDTracker setupWithChannel:@"AppStore" app: bundleId];
+    [WDTracker setupWithChannel:@"AppStore" app: [NSString stringWithFormat:@"bn_%@", @"appName"]];
     WDTracker.debug = true;
 
     // 自定义上传用户id
