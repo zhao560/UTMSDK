@@ -19,10 +19,9 @@ Pod::Spec.new do |s|
 
     s.vendored_frameworks =  ['Frameworks/WDUTMSDK.framework']
 
-    s.subspec 'Core' do |core|
-        core.source_files = "Sources/**/*"
-        core.dependency "SDWebImage"
-        core.dependency "Alamofire"
-    end
+    s.dependency 'SDWebImage'
+
+    s.dependency 'Alamofire'
+
 
 end
