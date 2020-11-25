@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-    s.name         = "BoNiuCore"
+    s.name         = "UTMSDK"
 
     s.version      = "1.0.2"
 
