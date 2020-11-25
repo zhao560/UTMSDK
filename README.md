@@ -7,7 +7,7 @@
 由于sdk 依赖了 `Alamofire` 和 `SDWebImage` 如果手动导入sdk 请自行导入
 
 ```ruby
-pod 'UTMSDK', '~> 1.0.1'
+pod 'UTMSDK', '~> 1.0.2'
 ```
 
 ## Requirements

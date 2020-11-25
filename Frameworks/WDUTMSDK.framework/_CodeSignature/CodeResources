@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/WDUTMSDK-Swift.h</key>
 		<data>
-		I7G0+v2+YWoxjdUsR9OlNhoV9fI=
+		dPh2ulnhKjks/8qbKz42TNWuWss=
 		</data>
 		<key>Headers/WDUTMSDK.h</key>
 		<data>
@@ -38,55 +38,71 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+X9izzZ5DzZofqiZAQrlpZG1x+Y=
+		IZLS18aQQ+8anWVZT1v7z+3qtrk=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		9W1WC9cVukyOlPQcXtb+ywCaPAM=
+		jzdswHu/Mn5qXl4VCnBq0phnnpw=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		9W1WC9cVukyOlPQcXtb+ywCaPAM=
+		jzdswHu/Mn5qXl4VCnBq0phnnpw=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yLxzS/fgrzQeVVGO7E7w9PqULYU=
+		znX4A6J2bZtyipm+rTHHx7TCz1A=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		yLxzS/fgrzQeVVGO7E7w9PqULYU=
+		znX4A6J2bZtyipm+rTHHx7TCz1A=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		tSVYti3O3jplQCbdUbKnG3ufS9w=
+		7DisR3BiUd32Tj/iTLMiyzF71PE=
+		</data>
+		<key>Modules/WDUTMSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
+		<data>
+		jf9qK9xeUFPO5KF49NNyBG4o5hA=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YL8XQRx841jRY9Wy7vVVJTsPn/M=
+		Ld6AjMi7aNY6RBKwRa10V2nSm+M=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		tSVYti3O3jplQCbdUbKnG3ufS9w=
+		7DisR3BiUd32Tj/iTLMiyzF71PE=
+		</data>
+		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftinterface</key>
+		<data>
+		jf9qK9xeUFPO5KF49NNyBG4o5hA=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		YL8XQRx841jRY9Wy7vVVJTsPn/M=
+		Ld6AjMi7aNY6RBKwRa10V2nSm+M=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gi2aenR79/mnHslnPSuaHXyvYsA=
+		Fmcpnv9gAsOQWEMJTAOsL+HbwnA=
+		</data>
+		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		10a/c+2NJ+d5zUTyo40R3+H8VCE=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Rua+1qyar4H0VAs5ZmcQouXSf0=
+		HMpEUE/3m2BAVif86qorO3n+bBw=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		gi2aenR79/mnHslnPSuaHXyvYsA=
+		Fmcpnv9gAsOQWEMJTAOsL+HbwnA=
+		</data>
+		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		10a/c+2NJ+d5zUTyo40R3+H8VCE=
 		</data>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		+Rua+1qyar4H0VAs5ZmcQouXSf0=
+		HMpEUE/3m2BAVif86qorO3n+bBw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -165,11 +181,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I7G0+v2+YWoxjdUsR9OlNhoV9fI=
+			dPh2ulnhKjks/8qbKz42TNWuWss=
 			</data>
 			<key>hash2</key>
 			<data>
-			yWI2DX0Xp39Idx4noi3rwjzwoF25/YrrekMeS/TrHKs=
+			3HdROZNQP6I/R4tUdA84+l5EabbdhS7xyaKlZ04zvIE=
 			</data>
 		</dict>
 		<key>Headers/WDUTMSDK.h</key>
@@ -187,132 +203,176 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9W1WC9cVukyOlPQcXtb+ywCaPAM=
+			jzdswHu/Mn5qXl4VCnBq0phnnpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Z35NuCSctU0r3Oyx36UH4yurMTuTRAdTsrAPm8PQyU=
+			ORKC5u+J1gdjWfL9sW1T0WrpZbRRO4vnuvprgC+NWJw=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9W1WC9cVukyOlPQcXtb+ywCaPAM=
+			jzdswHu/Mn5qXl4VCnBq0phnnpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Z35NuCSctU0r3Oyx36UH4yurMTuTRAdTsrAPm8PQyU=
+			ORKC5u+J1gdjWfL9sW1T0WrpZbRRO4vnuvprgC+NWJw=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yLxzS/fgrzQeVVGO7E7w9PqULYU=
+			znX4A6J2bZtyipm+rTHHx7TCz1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			04B3DmDP912gLa/ItEtIGgXf/ef6PsNQJA9nfYqlGf8=
+			Oqqlt4fft9XFsM6/LdqYokBVf+IzJsUmQR5YUdj0UFc=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yLxzS/fgrzQeVVGO7E7w9PqULYU=
+			znX4A6J2bZtyipm+rTHHx7TCz1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			04B3DmDP912gLa/ItEtIGgXf/ef6PsNQJA9nfYqlGf8=
+			Oqqlt4fft9XFsM6/LdqYokBVf+IzJsUmQR5YUdj0UFc=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tSVYti3O3jplQCbdUbKnG3ufS9w=
+			7DisR3BiUd32Tj/iTLMiyzF71PE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+pxjyExWjtTo5H9iabUydKZCZTkoSkFwr3kiijCe20Q=
+			OFj7Lpn4PgrPlbQwh0hG3OwZ5uKcayh2zQyqCzlHlGQ=
+			</data>
+		</dict>
+		<key>Modules/WDUTMSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jf9qK9xeUFPO5KF49NNyBG4o5hA=
+			</data>
+			<key>hash2</key>
+			<data>
+			HUphF41l6gAQiddJAd3nXmE6XSKg3+hWPiefiRfeOeA=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YL8XQRx841jRY9Wy7vVVJTsPn/M=
+			Ld6AjMi7aNY6RBKwRa10V2nSm+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			iNLAtQn40IevO/ihkPTubIukvqaT6i7S3dGAGwrLeL4=
+			fl2edfXk79DSHc6TAGMd69R9KhaYHElm7XjP2jDKFzY=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tSVYti3O3jplQCbdUbKnG3ufS9w=
+			7DisR3BiUd32Tj/iTLMiyzF71PE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+pxjyExWjtTo5H9iabUydKZCZTkoSkFwr3kiijCe20Q=
+			OFj7Lpn4PgrPlbQwh0hG3OwZ5uKcayh2zQyqCzlHlGQ=
+			</data>
+		</dict>
+		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jf9qK9xeUFPO5KF49NNyBG4o5hA=
+			</data>
+			<key>hash2</key>
+			<data>
+			HUphF41l6gAQiddJAd3nXmE6XSKg3+hWPiefiRfeOeA=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YL8XQRx841jRY9Wy7vVVJTsPn/M=
+			Ld6AjMi7aNY6RBKwRa10V2nSm+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			iNLAtQn40IevO/ihkPTubIukvqaT6i7S3dGAGwrLeL4=
+			fl2edfXk79DSHc6TAGMd69R9KhaYHElm7XjP2jDKFzY=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gi2aenR79/mnHslnPSuaHXyvYsA=
+			Fmcpnv9gAsOQWEMJTAOsL+HbwnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZspZWnNrMyp223j9rBZNQMml3z2KSNsRjJMcZ0CgZQk=
+			VR753DswEHc8eBSaqmIoU32lUwqG5QCKzylxHIxlqYk=
+			</data>
+		</dict>
+		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			10a/c+2NJ+d5zUTyo40R3+H8VCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			NkEAGLfPa96BztWy3iDMWes1/reYHYf5IEmRIeHqOsg=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+Rua+1qyar4H0VAs5ZmcQouXSf0=
+			HMpEUE/3m2BAVif86qorO3n+bBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			553rXLy1IO+KOYs+SwCyw68EA2Q8YPrwFMd/9J7XtUk=
+			0+XL8Nl3ZCcHcdJ8HBIXwwfviQbIf6oqOu3yUFbhmBw=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gi2aenR79/mnHslnPSuaHXyvYsA=
+			Fmcpnv9gAsOQWEMJTAOsL+HbwnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZspZWnNrMyp223j9rBZNQMml3z2KSNsRjJMcZ0CgZQk=
+			VR753DswEHc8eBSaqmIoU32lUwqG5QCKzylxHIxlqYk=
+			</data>
+		</dict>
+		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			10a/c+2NJ+d5zUTyo40R3+H8VCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			NkEAGLfPa96BztWy3iDMWes1/reYHYf5IEmRIeHqOsg=
 			</data>
 		</dict>
 		<key>Modules/WDUTMSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+Rua+1qyar4H0VAs5ZmcQouXSf0=
+			HMpEUE/3m2BAVif86qorO3n+bBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			553rXLy1IO+KOYs+SwCyw68EA2Q8YPrwFMd/9J7XtUk=
+			0+XL8Nl3ZCcHcdJ8HBIXwwfviQbIf6oqOu3yUFbhmBw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

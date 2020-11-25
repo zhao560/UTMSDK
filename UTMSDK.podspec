@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "UTMSDK"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "统计工具"
 
 s.homepage     = "https://github.com/zhao560/UTMSDK"
@@ -19,9 +19,9 @@ s.frameworks = 'UIKit', 'WebKit', 'SystemConfiguration', 'CoreTelephony'
 
 s.vendored_frameworks =  ['Frameworks/WDUTMSDK.framework']
 
-s.dependency 'SDWebImage', '~> 5.9.4'
-
-s.dependency 'Alamofire', '~> 5.3.0'
-
+s.subspec 'Core' do |core|
+    core.dependency "SDWebImage", "~> 5.9.4"
+    core.dependency "Alamofire", "~> 5.0"
 end
+
 
