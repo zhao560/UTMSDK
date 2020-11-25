@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041D0825256E5EDB00AC3BB0 /* WDUTMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041D0824256E5EDB00AC3BB0 /* WDUTMSDK.framework */; };
 		048548D6255A34CB0069C4DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048548D5255A34CB0069C4DF /* AppDelegate.m */; };
 		048548E1255A34CC0069C4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048548E0255A34CC0069C4DF /* Assets.xcassets */; };
 		048548E4255A34CC0069C4DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048548E2255A34CC0069C4DF /* LaunchScreen.storyboard */; };
@@ -15,11 +16,11 @@
 		048548F3255A354A0069C4DF /* MyOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048548F1255A354A0069C4DF /* MyOneViewController.swift */; };
 		048548FC255A5F0E0069C4DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048548FB255A5F0E0069C4DF /* SystemConfiguration.framework */; };
 		048548FE255A5F140069C4DF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048548FD255A5F140069C4DF /* CoreTelephony.framework */; };
-		04DDBA12255B846A00F7BB69 /* WDUTMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DDBA11255B846A00F7BB69 /* WDUTMSDK.framework */; };
 		CA2E04EEC8892915A3029645 /* Pods_BNUTMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192DE33A88FD7454B3FFF683 /* Pods_BNUTMDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041D0824256E5EDB00AC3BB0 /* WDUTMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WDUTMSDK.framework; sourceTree = "<group>"; };
 		048548D1255A34CB0069C4DF /* BNUTMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNUTMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048548D4255A34CB0069C4DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048548D5255A34CB0069C4DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		048548F1255A354A0069C4DF /* MyOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOneViewController.swift; sourceTree = "<group>"; };
 		048548FB255A5F0E0069C4DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		048548FD255A5F140069C4DF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		04DDBA11255B846A00F7BB69 /* WDUTMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WDUTMSDK.framework; sourceTree = "<group>"; };
 		192DE33A88FD7454B3FFF683 /* Pods_BNUTMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BNUTMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6633B3A23CFC34180771663A /* Pods-BNUTMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNUTMDemo.debug.xcconfig"; path = "Target Support Files/Pods-BNUTMDemo/Pods-BNUTMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CA9A12EAB5E88B1E3C70C10B /* Pods-BNUTMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNUTMDemo.release.xcconfig"; path = "Target Support Files/Pods-BNUTMDemo/Pods-BNUTMDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048548FE255A5F140069C4DF /* CoreTelephony.framework in Frameworks */,
-				04DDBA12255B846A00F7BB69 /* WDUTMSDK.framework in Frameworks */,
+				041D0825256E5EDB00AC3BB0 /* WDUTMSDK.framework in Frameworks */,
 				CA2E04EEC8892915A3029645 /* Pods_BNUTMDemo.framework in Frameworks */,
 				048548FC255A5F0E0069C4DF /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -91,7 +91,7 @@
 		04DDBA10255B846A00F7BB69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04DDBA11255B846A00F7BB69 /* WDUTMSDK.framework */,
+				041D0824256E5EDB00AC3BB0 /* WDUTMSDK.framework */,
 			);
 			path = Frameworks;
 			sourceTree = SOURCE_ROOT;

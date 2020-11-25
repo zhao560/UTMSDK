@@ -1,7 +1,9 @@
 Pod::Spec.new do |s|
 
-    s.name         = "UTMSDK"
+    s.name         = "BoNiuCore"
+
     s.version      = "1.0.2"
+
     s.summary      = "统计工具"
 
     s.homepage     = "https://github.com/zhao560/UTMSDK"
@@ -22,6 +24,5 @@ Pod::Spec.new do |s|
     s.dependency 'SDWebImage'
 
     s.dependency 'Alamofire'
-
 
 end
